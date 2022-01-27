@@ -1,0 +1,74 @@
+/** Zoe Zapata 
+	ISTE240 
+	Fall 2211
+	CSS for index.html
+	**/
+
+/** Page specific text rules**/
+h1 {
+	color: #D84C3E;
+}
+
+#bodytext{
+ padding-top: 2em;
+ letter-spacing: .5px;
+ line-height: 25px;
+ 
+}
+
+/** Create Location info list **/
+#IslandInfo ul {
+	list-style: none;
+	font-size: 20px;
+	padding-left: 0;
+	display: block;
+	float: none;
+	margin-right: 10px;
+}
+
+#container{
+display: flex;
+}
+
+
+#IslandInfo li {
+	flex: 1;
+	display: inline-block;
+	float: left;
+	text-align: left;
+	clear: both;
+	background-color: #3D3D3D;
+	color: #FF938C;
+	padding: 20px;
+	width: 10em;
+}
+
+/** Organize Images **/
+#imageone {
+margin-top: 19px;
+margin-left: 15px;
+display: block;
+width:100%;
+}
+
+#quote {
+	color: #01998A;
+}
+
+#imagetwo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+}
+
+@media only screen and (max-width: 650px){
+#container{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+}
+

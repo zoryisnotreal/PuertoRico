@@ -1,0 +1,36 @@
+/** Zoe Zapata 
+	ISTE240 
+	Fall 2211
+	CSS for recommendations.html
+	**/
+
+/** to make things a little cute... **/
+h1 {
+	color: #D84C3E;
+}
+
+#content{
+ letter-spacing: .5px;
+ line-height: 25px;
+}
+
+h2 {
+color: #E39399;
+}
+
+/** make comment list cute **/
+#list ul {
+list-style:none;
+}
+
+#list li {
+padding: 5px 5px;
+background-color: aliceblue;
+}
+
+
+#submit {
+    font-family: Roboto, Verdana, SansSerif;
+    background-color: #013833;
+    color: white;
+}

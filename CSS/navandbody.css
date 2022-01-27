@@ -1,0 +1,247 @@
+
+/** Naviagtion **/
+
+/** Set container position and rules**/
+#navContainer{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right:0;
+  background-color: #013833;
+  letter-spacing: 1px;
+  z-index: 100;
+  padding: 20px;
+  color: #EBFDFC;
+  font-family:'Roboto', Verdana, SansSerif;
+}
+
+#mobileNav{
+display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/** set nav rules **/
+.nav {
+  background-color: #013833;
+  letter-spacing: 1px;
+  font-family:'Roboto', Verdana, SansSerif;
+}
+
+/** define main div **/
+.nav ul {
+  background: #013833;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.nav .on a{
+  color: #44FCA4;
+}
+
+/** define rules for dropdown **/
+.nav li {
+  color: #EBFDFC;
+  background: #013833;
+  display: block;
+  float: left;
+  padding: 1rem;
+  position: relative;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+  
+.nav li a {
+  color: #fff;
+}
+
+/** hover rules **/
+.nav li:hover,
+.nav li:focus-within {
+  background: #D84C3E;
+  cursor: pointer;
+}
+
+.nav li:focus-within a {
+  outline: none;
+}
+
+/** dropdown functionality **/
+.nav ul li ul {
+  
+  visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+}
+
+.nav ul li:hover > ul,
+.nav ul li:focus-within > ul,
+.nav ul li ul:hover,
+.nav ul li ul:focus {
+  visibility: visible;
+  opacity: 1;
+  display: block
+}
+
+.nav ul li ul li {
+  clear: both;
+  width: 100%;
+}
+
+/** header above nav **/
+#label {
+padding: 1rem;
+}
+
+
+/** Body **/
+body {
+	font-family: 'Padauk', Verdana, SansSerif;
+	font-size: 16px;
+	color: #3D3D3D;
+}
+
+/** margins for content **/
+#content {
+	margin-right: 88pt;
+	margin-left: 88pt;
+	margin-top: 130pt;
+	margin-bottom: 10%;
+	z-index: 1;
+}
+
+/** rule for all quotes **/
+.quote {
+	color: #01998A;
+}
+
+/** Rules for footer **/
+#footer{
+border-top: 1px solid #3D3D3D;
+	margin-top: 3px;
+	z-index: 2;
+	padding: 20px;
+	position: fixed;
+	font-weight:bold;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	float: right;
+	filter: drop-shadow(3px 3px 5px black);
+
+}
+
+#footer a:hover{
+color: #01998A;
+}
+
+#footer a{
+	color: #3D3D3D;
+}
+
+#footer a:active{
+color: #01998A;
+}
+
+/** Rules for Back to Top buttom **/
+#myBtn{
+display: none; /* Hidden by default */
+position: fixed; /* Fixed/sticky position */
+bottom: 20px; /* Place the button at the bottom of the page */
+right: 30px; /* Place the button 30px from the right */
+z-index: 99; /* Make sure it does not overlap */
+border: none; /* Remove borders */
+outline: none; /* Remove outline */
+color: white; /* Text color */
+padding: 10px; /* Some padding */
+border-radius: 3px; /* Rounded corners */
+font-size: 14px; /* Increase font size */
+background-color:#013833;
+}
+
+#myBtn:hover{
+background-color: black;
+}
+
+/** media query **/
+
+
+@media only screen and (max-width: 650px){
+
+/** Turn off desktop nav **/
+#navContainer {
+display: none;
+}
+
+/** Icon makes an appearance **/
+.icon {
+font-size: 30px;
+padding-left: 10px;
+}
+
+#mobileLinks{
+display:none;
+}
+/** Make Mobile Nav a little cute... **/
+#mobileNav{
+display:block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right:0;
+  background-color: #013833;
+  letter-spacing: 1px;
+  z-index: 100;
+  padding: 20px;
+  color: #EBFDFC;
+  font-family:'Roboto', Verdana, SansSerif;
+}
+
+#mobileNav a {
+  text-decoration: none;
+  color: #EBFDFC;
+  background: #013833;
+  display: block;
+  float: left;
+    padding-top: 1rem;
+    }
+
+/** set nav rules **/
+#mobileNav a {
+  background-color: #013833;
+  letter-spacing: 1px;
+  font-family:'Roboto', Verdana, SansSerif;
+  width: 100%;
+  
+}
+
+body {
+font-size: 14px;
+
+}
+
+#myBtn{
+display:none;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

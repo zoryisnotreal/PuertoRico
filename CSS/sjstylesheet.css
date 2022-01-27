@@ -1,0 +1,72 @@
+/** Zoe Zapata 
+	ISTE240 
+	Fall 2211
+	CSS for sj.html
+	**/
+h1 {
+	color: #D84C3E;
+}
+
+#content{
+ letter-spacing: .5px;
+ line-height: 25px;
+ margin-bottom: 15em;
+}
+
+h2 {
+color: #E39399;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+  float: right;
+  padding: 10px;
+}
+
+.img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  padding: 10px;
+  padding-left: 0;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .img {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: #3D3D3D;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+p{
+margin-top: 4em;
+line-height: 40px;
+}
+
+@media only screen and (max-width: 650px){
+.text {
+font-size: 12px;
+padding: 12px 24px;
+}
+}

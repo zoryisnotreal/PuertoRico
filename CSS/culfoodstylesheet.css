@@ -1,0 +1,32 @@
+/** Zoe Zapata 
+	ISTE240 
+	Fall 2211
+	CSS for culfood.html
+	**/
+h1 {
+	color: #D84C3E;
+}
+
+#content{
+ letter-spacing: .5px;
+ line-height: 25px;
+}
+
+h2 {
+color: #E39399;
+}
+
+iframe{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+@media only screen and (max-width: 650px){
+iframe {
+width: 50%;
+height: auto;
+}
+
+}

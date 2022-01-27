@@ -1,0 +1,44 @@
+/** Zoe Zapata 
+	ISTE240 
+	Fall 2211
+	CSS for historicalsites.html
+	**/
+
+/** Font rules **/
+h1 {
+	color: #D84C3E;
+}
+
+#content{
+ letter-spacing: .5px;
+ line-height: 25px;
+}
+
+h2 {
+color: #E39399;
+}
+
+/**img size and location**/
+#imgone{
+float: left;
+padding-right: 2em;
+}
+
+
+iframe{
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+
+@media only screen and (max-width: 650px){
+/**make img fit **/
+#imgthree  {
+width:100%;
+height: auto;
+}
+
+}
+
+
+

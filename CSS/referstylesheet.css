@@ -1,0 +1,14 @@
+/** Zoe Zapata 
+	ISTE240 
+	Fall 2211
+	CSS for references.html
+	**/
+
+h1 {
+	color: #D84C3E;
+}
+
+#content{
+ letter-spacing: .5px;
+ line-height: 25px;
+}

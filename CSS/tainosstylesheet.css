@@ -1,0 +1,18 @@
+/** Zoe Zapata 
+	ISTE240 
+	Fall 2211
+	CSS for tainos.html
+	**/
+/** make it a little cute **/
+h1 {
+	color: #D84C3E;
+}
+
+#content{
+ letter-spacing: .5px;
+ line-height: 25px;
+}
+
+h2 {
+color: #E39399;
+}

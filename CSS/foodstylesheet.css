@@ -1,0 +1,56 @@
+/** Zoe Zapata 
+	ISTE240 
+	Fall 2211
+	CSS for food.html
+	**/
+
+/** Font styles **/
+h1 {
+	color: #D84C3E;
+}
+
+#content{
+ letter-spacing: .5px;
+ line-height: 25px;
+}
+
+h2 {
+color: #AD0962;
+}
+
+ul {
+list-style: none;
+}
+
+/** Recipe css **/
+#fry{
+background-color: #6EF5CA;
+color: black;
+padding: 50px;
+position: absolute;
+right: 0;
+left: 0;
+}
+
+/** Image rules **/
+#imgone{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+  padding: 3em;
+}
+
+#pegao{
+display: block;
+position: relative;
+z-index: 1;
+}
+
+/** make footer appear above recipe **/
+footer{
+z-index: 2;
+margin-top: 40px;
+}
+
